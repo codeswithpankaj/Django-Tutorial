@@ -4,7 +4,6 @@ from django.views.generic import ListView, DetailView
 # Create your views here.
 
 
-
 class PostIndexView(ListView):
     model = Blog
     template_name = 'blog.html'

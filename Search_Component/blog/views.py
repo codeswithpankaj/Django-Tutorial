@@ -7,7 +7,7 @@ from django.views.generic import ListView, DetailView
 class PostIndexView(ListView):
     model = Blog
     template_name = 'blog.html'
-    queryset=Blog.objects.all()
+    queryset = Blog.objects.all()
     context_object_name = 'posts'
 
 class PostDetailView(DetailView):
